@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <fieldset>
+        <legend><h1>Formulario de registro</h1></legend>
+    <form action="register.php" method="post">
+    
+       
+    <p>
+        <label for="nombre"><img src="corazon.png" alt="corazón naranja" width="10px">Nombre:</label>
+        <input type="text" name="nombre" id="nombre"/>
+    </p>
+    <p>
+        <label for="apellidos"><img src="corazon.png" alt="corazón naranja" width="10px">Apellidos:</label>
+        <input type="text" name="nombre" id="apellidos"/> 
+    </p>
+     <p>
+        <img src="corazon.png" alt="corazón naranja" width="10px"> Sexo:
+         <input type="radio" name="sexo" value="hombre" id="hombre"/><label for="hombre">hombre</label>
+         <input type="radio" name="sexo" value="mujer" id="mujer"/><label for="mujer">mujer</label>
+         <input type="radio" name="sexo" value="otro" id="otro" checked="checked"/><label for="otro">otro</label>
+
+     </p>
+     <p>
+        <label for="correo"><img src="corazon.png" alt="corazón naranja" width="10px" >Correo:</label>
+        <input type="text" name="correo" id="correo" placeholder="name@example.com"/>
+    </p>
+        <label for="ciudad"><img src="corazon.png" alt="corazón naranja" width="10px">Ciudad:</label>
+         <select name="ciudad" id="ciudad">
+             <option value="rosario">Rosario</option>
+             <option value="villacarlospaz">Villa Carlos Paz</option>
+             <option value="merlo">Merlo</option>
+             <option value="resistencia">Resistencia</option>
+             <option value="parana">Paraná</option>
+         </select>
+    <p>
+         <label for="descripcion"><img src="corazon.png" alt="corazón naranja" width="10px">Descripción:</label>
+         <textarea name="descripcion" id="descripcion"></textarea>
+    </p>
+    <p>
+        <input type="checkbox" name="deseo" id="deseo"/><label for="deseo">Deseo recibir infomación sobre novedades y ofertas</label>
+    </p>
+    <p>
+        <input type="checkbox" name="declaro" id="declaro"/><label for="declaro">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+    </p>
+        <input type="submit" name="enviar" id="boton"/>
+    </form>  
+</fieldset>  
+</body>
+</html> 

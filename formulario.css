@@ -1,0 +1,52 @@
+body {background:#FAD6C6 ;
+ }
+
+ fieldset {background:white;
+    margin:0 auto;
+    width: 400px;
+    border-radius: 3px;
+    box-shadow: 7px 10px 15px rgb(236, 151, 142);
+       
+  }
+
+legend {-webkit-text-stroke: 2px#FF5733  ;
+    color:white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:20px;
+   
+}
+
+form { font-family:Georgia, 'Times New Roman', Times, serif;
+     
+}
+
+#boton {width: 100px;
+    height: 40px;
+    float:right;
+	text-align:center;
+    background: rgb(240, 208, 187);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#ciudad {font-family: Georgia, 'Times New Roman', Times, serif;
+    border:1px solid slategray ;
+    border-radius: 3px;}
+
+#correo{width: 313px;
+    border:1px solid slategray ;
+    border-radius: 3px;
+}
+#apellidos{width: 300px;
+    border:1px solid slategray ;
+    border-radius: 3px;
+}
+#nombre{width: 306px;
+    border:1px solid slategray ;
+    border-radius: 3px;
+}
+#descripcion{ vertical-align: top;
+    width: 282px;
+    height: 50px;
+    border:1px solid slategray ;
+    border-radius: 3px;
+}
